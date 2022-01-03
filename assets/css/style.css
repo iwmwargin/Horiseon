@@ -1,13 +1,16 @@
+
+
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* background color*/
 body {
     background-color: #d9dcd6;
 }
-
+/* stylings for the header begin */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,10 +49,12 @@ a {
     text-decoration: none;
 }
 
+/* stylings for the header end */
+
 p {
     font-size: 16px;
 }
-
+/* hero stylings begin */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +63,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* hero stylings end */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,7 +79,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* i feel like there is a way to condense lines 83 through 99 but can't crack it */
 .search-engine-optimization, .online-reputation-management,.social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
@@ -92,7 +97,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* this code affects styling of the benefits column */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -115,7 +120,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end of benefits styling */
 
+/* all footer styings */
 footer {
     padding: 30px;
     clear: both;
